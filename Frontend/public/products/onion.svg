@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFF8F0"/><stop offset="100%" stop-color="#FBE9E7"/></radialGradient>
+    <radialGradient id="on1" cx="40%" cy="35%"><stop offset="0%" stop-color="#CE93D8"/><stop offset="100%" stop-color="#7B1FA2"/></radialGradient>
+    <radialGradient id="on2" cx="45%" cy="35%"><stop offset="0%" stop-color="#BA68C8"/><stop offset="100%" stop-color="#6A1B9A"/></radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)" rx="12"/>
+  <ellipse cx="200" cy="245" rx="100" ry="15" fill="#00000012"/>
+  <!-- back onion -->
+  <ellipse cx="250" cy="175" rx="50" ry="55" fill="url(#on2)"/>
+  <path d="M240 120 Q250 95 260 120" stroke="#4A148C" stroke-width="1.5" fill="none"/>
+  <!-- front onion -->
+  <ellipse cx="175" cy="180" rx="55" ry="60" fill="url(#on1)"/>
+  <ellipse cx="160" cy="165" rx="12" ry="8" fill="#E1BEE7" opacity="0.35"/>
+  <path d="M163 120 Q175 90 187 120" stroke="#4A148C" stroke-width="1.5" fill="none"/>
+  <!-- small onion -->
+  <ellipse cx="310" cy="205" rx="30" ry="33" fill="url(#on1)" opacity="0.8"/>
+  <path d="M305 175 Q310 160 315 175" stroke="#4A148C" stroke-width="1" fill="none"/>
+  <text x="200" y="285" text-anchor="middle" fill="#7B1FA2" font-family="Georgia" font-size="14" opacity="0.6">Red Onions · 1kg</text>
+</svg>

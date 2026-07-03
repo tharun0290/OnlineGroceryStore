@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFF5F5"/><stop offset="100%" stop-color="#FFEBEE"/></radialGradient>
+    <radialGradient id="ap1" cx="35%" cy="30%"><stop offset="0%" stop-color="#EF5350"/><stop offset="30%" stop-color="#E53935"/><stop offset="100%" stop-color="#B71C1C"/></radialGradient>
+    <radialGradient id="ap2" cx="35%" cy="30%"><stop offset="0%" stop-color="#F44336"/><stop offset="100%" stop-color="#C62828"/></radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)" rx="12"/>
+  <ellipse cx="200" cy="248" rx="95" ry="14" fill="#00000012"/>
+  <!-- back apple -->
+  <ellipse cx="245" cy="175" rx="48" ry="52" fill="url(#ap2)"/>
+  <ellipse cx="232" cy="160" rx="10" ry="8" fill="#EF9A9A" opacity="0.3"/>
+  <path d="M238 125 Q248 100 255 110 Q252 105 258 95" stroke="#4CAF50" stroke-width="2" fill="none"/>
+  <path d="M250 110 Q258 105 262 112 Q260 108 255 112Z" fill="#66BB6A"/>
+  <!-- front apple -->
+  <ellipse cx="180" cy="180" rx="55" ry="58" fill="url(#ap1)"/>
+  <ellipse cx="163" cy="162" rx="14" ry="10" fill="#EF9A9A" opacity="0.35"/>
+  <!-- stem + leaf -->
+  <path d="M175 124 Q180 95 185 108" stroke="#5D4037" stroke-width="2.5" fill="none"/>
+  <path d="M182 108 Q200 95 205 110 Q195 105 182 108Z" fill="#4CAF50"/>
+  <text x="200" y="285" text-anchor="middle" fill="#C62828" font-family="Georgia" font-size="14" opacity="0.6">Kashmir Apples · 1kg</text>
+</svg>

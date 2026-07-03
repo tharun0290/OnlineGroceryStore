@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#F9FBE7"/><stop offset="100%" stop-color="#F0F4C3"/></radialGradient>
+    <linearGradient id="bottle" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#66BB6A"/><stop offset="100%" stop-color="#2E7D32"/></linearGradient>
+    <linearGradient id="liquid" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C8E6C9"/><stop offset="100%" stop-color="#81C784"/></linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)" rx="12"/>
+  <ellipse cx="200" cy="260" rx="60" ry="10" fill="#00000010"/>
+  <!-- bottle body -->
+  <rect x="155" y="90" width="90" height="165" rx="14" fill="url(#bottle)"/>
+  <!-- bottle neck -->
+  <rect x="180" y="50" width="40" height="45" rx="6" fill="url(#bottle)"/>
+  <!-- cap -->
+  <rect x="177" y="40" width="46" height="15" rx="5" fill="#1B5E20"/>
+  <!-- label -->
+  <rect x="165" y="130" width="70" height="80" rx="6" fill="#FFFFFF" opacity="0.9"/>
+  <!-- lemon on label -->
+  <ellipse cx="200" cy="155" rx="14" ry="12" fill="#FDD835"/>
+  <path d="M212 150 Q218 152 215 158" stroke="#F9A825" stroke-width="1.5" fill="none"/>
+  <text x="200" y="183" text-anchor="middle" fill="#2E7D32" font-family="Arial,sans-serif" font-size="10" font-weight="bold">DISH WASH</text>
+  <text x="200" y="198" text-anchor="middle" fill="#4CAF50" font-family="Arial,sans-serif" font-size="9">Lemon Fresh</text>
+  <!-- bubbles -->
+  <circle cx="270" cy="100" r="10" fill="#E8F5E9" opacity="0.5" stroke="#A5D6A7" stroke-width="0.5"/>
+  <circle cx="130" cy="120" r="7" fill="#E8F5E9" opacity="0.4" stroke="#A5D6A7" stroke-width="0.5"/>
+  <circle cx="280" cy="190" r="12" fill="#E8F5E9" opacity="0.3" stroke="#A5D6A7" stroke-width="0.5"/>
+  <circle cx="115" cy="210" r="8" fill="#E8F5E9" opacity="0.35" stroke="#A5D6A7" stroke-width="0.5"/>
+</svg>

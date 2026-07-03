@@ -1,0 +1,7 @@
+.order-success { padding: var(--space-3xl) 0; display: flex; justify-content: center; min-height: 60vh; align-items: center; }
+.success-card { text-align: center; padding: var(--space-3xl); max-width: 560px; }
+.success-card:hover { transform: none; }
+.success-icon { color: var(--primary); margin-bottom: var(--space-lg); }
+.success-card h1 { font-family: var(--font-display); font-size: 2rem; margin-bottom: var(--space-md); }
+.success-card p { color: var(--text-light); font-size: 1.05rem; line-height: 1.7; margin-bottom: var(--space-xl); }
+.success-actions { display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap; }

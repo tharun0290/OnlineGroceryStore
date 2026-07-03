@@ -1,0 +1,36 @@
+.skeleton-card {
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.skeleton-image { aspect-ratio: 4/3; border-radius: 0; }
+.skeleton-body { padding: var(--space-md); }
+.skeleton-title { height: 20px; width: 75%; margin-bottom: 8px; }
+.skeleton-text { height: 14px; width: 90%; margin-bottom: 16px; }
+.skeleton-row { display: flex; justify-content: space-between; align-items: center; }
+.skeleton-price { height: 24px; width: 60px; }
+.skeleton-btn { height: 32px; width: 80px; border-radius: var(--radius); }
+
+.skeleton-stat {
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.skeleton-stat-icon { width: 48px; height: 48px; border-radius: var(--radius); }
+.skeleton-stat-number { height: 32px; width: 60px; }
+.skeleton-stat-label { height: 14px; width: 80px; }
+
+.skeleton-order {
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow);
+}

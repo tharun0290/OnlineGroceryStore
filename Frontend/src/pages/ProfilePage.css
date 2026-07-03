@@ -1,0 +1,21 @@
+.profile-page { padding: var(--space-xl) 0; }
+.profile-layout { display: grid; grid-template-columns: 320px 1fr; gap: var(--space-xl); align-items: start; }
+.profile-card { padding: var(--space-xl); text-align: center; position: sticky; top: 96px; }
+.profile-card:hover { transform: none; }
+.profile-avatar { width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, var(--primary), var(--primary-light)); color: white; font-size: 2rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-md); }
+.profile-email { color: var(--text-light); font-size: 0.9rem; margin-bottom: var(--space-lg); }
+.profile-details { text-align: left; }
+.detail-row { display: flex; align-items: flex-start; gap: var(--space-sm); padding: var(--space-sm) 0; color: var(--text-light); font-size: 0.9rem; }
+.detail-row svg { margin-top: 3px; flex-shrink: 0; color: var(--primary); }
+.profile-form { text-align: left; margin-top: var(--space-md); }
+.orders-section {}
+.order-card { padding: var(--space-lg); margin-bottom: var(--space-md); }
+.order-card:hover { transform: none; }
+.order-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-md); }
+.order-id { font-weight: 700; margin-right: var(--space-md); }
+.order-date { color: var(--text-light); font-size: 0.85rem; }
+.order-status-badge { padding: 4px 12px; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; }
+.order-items-list { display: flex; flex-direction: column; gap: 4px; margin-bottom: var(--space-md); }
+.order-item-row { display: flex; justify-content: space-between; font-size: 0.9rem; color: var(--text-light); padding: 4px 0; }
+.order-total { text-align: right; font-weight: 700; font-size: 1.1rem; color: var(--primary); border-top: 1px solid var(--border); padding-top: var(--space-sm); }
+@media (max-width: 768px) { .profile-layout { grid-template-columns: 1fr; } .profile-card { position: static; } }

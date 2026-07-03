@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFFDE7"/><stop offset="100%" stop-color="#FFF9C4"/></radialGradient>
+    <linearGradient id="ban" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFD54F"/><stop offset="50%" stop-color="#FFCA28"/><stop offset="100%" stop-color="#F9A825"/></linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)" rx="12"/>
+  <ellipse cx="200" cy="250" rx="110" ry="12" fill="#00000010"/>
+  <!-- banana bunch -->
+  <path d="M140 200 Q130 140 170 100 Q200 80 220 90 Q210 100 190 115 Q160 145 155 200Z" fill="url(#ban)" stroke="#F57F17" stroke-width="1"/>
+  <path d="M155 200 Q150 145 185 105 Q210 85 235 95 Q225 105 205 118 Q175 148 170 200Z" fill="url(#ban)" stroke="#F57F17" stroke-width="1"/>
+  <path d="M170 200 Q168 150 200 112 Q225 92 250 100 Q240 110 220 125 Q195 152 188 200Z" fill="url(#ban)" stroke="#F57F17" stroke-width="1"/>
+  <path d="M188 198 Q188 155 215 118 Q240 98 262 108 Q252 118 235 130 Q210 155 205 198Z" fill="url(#ban)" stroke="#F57F17" stroke-width="1"/>
+  <!-- stem -->
+  <path d="M218 95 Q230 80 245 85 Q255 90 250 100" fill="#795548" stroke="#5D4037" stroke-width="1"/>
+  <!-- spots -->
+  <circle cx="170" cy="160" r="2" fill="#795548" opacity="0.3"/>
+  <circle cx="195" cy="145" r="1.5" fill="#795548" opacity="0.25"/>
+  <text x="200" y="285" text-anchor="middle" fill="#F57F17" font-family="Georgia" font-size="14" opacity="0.6">Fresh Bananas · 1 Dozen</text>
+</svg>
